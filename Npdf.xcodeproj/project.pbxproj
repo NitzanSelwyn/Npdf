@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17AB4993A565EE270ABA6491 /* SignatureCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE735375CC6B33EE58CCC9 /* SignatureCaptureView.swift */; };
+		2C5FE5F0F0716F37DDE55094 /* ToolSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7A4B14AC7A9FE0EDA9DD65 /* ToolSettings.swift */; };
+		3017FE3652532EBD2BC6A8FF /* NpdfInkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A997B4D93FADE7145686E8 /* NpdfInkAnnotation.swift */; };
+		3952E84B7E3CCE71711E0EC4 /* SignaturePanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0B443B7EB01BE0D81107D8 /* SignaturePanelView.swift */; };
+		41E1BAEB1D90143465F22750 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7998CD93BA8A07D5AE2FAB /* PDFViewController.swift */; };
+		43EC84AB7F359D09D13D90B2 /* ToolMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD92CE0134B6076DC01A73 /* ToolMode.swift */; };
+		49DC2A3B43AB0F98B1B6B3D9 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060377B8487F22A48A41843E /* MainWindowController.swift */; };
+		66B8ACEA059555F9F1D163A5 /* ToolPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2445E13B4BD55D5B53AE963C /* ToolPickerView.swift */; };
+		6B41DBE86B727F849F52B5F9 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F8E35970CE9B9F43C2071B /* SplitViewController.swift */; };
+		7355B541C8E4F047850E6F9F /* AnnotationOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFDB1DF489C8C66F3A6EA2 /* AnnotationOverlayView.swift */; };
+		989E8175C84530FFECB4B0DA /* TextEditorOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F01FEF3A283E758F8BB91B /* TextEditorOverlayView.swift */; };
+		9B169EBA0A7A7274482E7F3A /* PDFEditorDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146CC815E253A086C74C8EA4 /* PDFEditorDocument.swift */; };
+		A0C7DC46802E2E2D046BA56F /* NpdfStampAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC326BD04ADC668B4F655DB /* NpdfStampAnnotation.swift */; };
+		AB2C81C231F425008AB1740D /* NpdfKit in Frameworks */ = {isa = PBXBuildFile; productRef = BB1B5776C6C432C8B2649201 /* NpdfKit */; };
+		B90013A7EBBC12702CC33866 /* NpdfLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546955CB8167446BA1C31095 /* NpdfLogger.swift */; };
+		CCF9691944683D2B8C406A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCB4E144F2DA50C3BB4EC58 /* Assets.xcassets */; };
+		D1E5532CBFA1FEE367A8D209 /* ToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731C7388C7ACBED0657BBCA /* ToolbarController.swift */; };
+		E77C5AE9F9216376699727EE /* ThumbnailSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A2996AA8B5163EA5B04CF9 /* ThumbnailSidebarView.swift */; };
+		F27D5C7199F76083C78174ED /* SignaturePanelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE6D37ADA5D3D74C2463DF6 /* SignaturePanelViewModel.swift */; };
+		F40ACB97A48C8E4E65D01D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0107742F18401DE4E34F691F /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0107742F18401DE4E34F691F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		060377B8487F22A48A41843E /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		0E7A4B14AC7A9FE0EDA9DD65 /* ToolSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolSettings.swift; sourceTree = "<group>"; };
+		146CC815E253A086C74C8EA4 /* PDFEditorDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFEditorDocument.swift; sourceTree = "<group>"; };
+		2445E13B4BD55D5B53AE963C /* ToolPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolPickerView.swift; sourceTree = "<group>"; };
+		2731C7388C7ACBED0657BBCA /* ToolbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarController.swift; sourceTree = "<group>"; };
+		31F01FEF3A283E758F8BB91B /* TextEditorOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorOverlayView.swift; sourceTree = "<group>"; };
+		546955CB8167446BA1C31095 /* NpdfLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpdfLogger.swift; sourceTree = "<group>"; };
+		64A2996AA8B5163EA5B04CF9 /* ThumbnailSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailSidebarView.swift; sourceTree = "<group>"; };
+		6D7998CD93BA8A07D5AE2FAB /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		6DEE735375CC6B33EE58CCC9 /* SignatureCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureCaptureView.swift; sourceTree = "<group>"; };
+		7BCB4E144F2DA50C3BB4EC58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DE6D37ADA5D3D74C2463DF6 /* SignaturePanelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignaturePanelViewModel.swift; sourceTree = "<group>"; };
+		8ACD92CE0134B6076DC01A73 /* ToolMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolMode.swift; sourceTree = "<group>"; };
+		BE0B443B7EB01BE0D81107D8 /* SignaturePanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignaturePanelView.swift; sourceTree = "<group>"; };
+		C2824FC45B5BCA47AE17E738 /* Npdf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Npdf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F750208CD76ABF3FDF6ED9 /* NpdfKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NpdfKit; path = NpdfKit; sourceTree = SOURCE_ROOT; };
+		CDDFDB1DF489C8C66F3A6EA2 /* AnnotationOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationOverlayView.swift; sourceTree = "<group>"; };
+		CEC326BD04ADC668B4F655DB /* NpdfStampAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpdfStampAnnotation.swift; sourceTree = "<group>"; };
+		E7F8E35970CE9B9F43C2071B /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		F2A997B4D93FADE7145686E8 /* NpdfInkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpdfInkAnnotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5EB8C7F431A77E7DB04218D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2C81C231F425008AB1740D /* NpdfKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07BC9426CE82DFF7CC2BACBA /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				2731C7388C7ACBED0657BBCA /* ToolbarController.swift */,
+				2445E13B4BD55D5B53AE963C /* ToolPickerView.swift */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+		3E2F4EBD4284025A2C863E85 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				146CC815E253A086C74C8EA4 /* PDFEditorDocument.swift */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		42952AD5577FF1C29405D5B7 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C3F750208CD76ABF3FDF6ED9 /* NpdfKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		48E0297DB1BEF954DD8C2549 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7BCB4E144F2DA50C3BB4EC58 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4BDB6CECFBAE4D572ED57F81 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0107742F18401DE4E34F691F /* AppDelegate.swift */,
+				546955CB8167446BA1C31095 /* NpdfLogger.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4E20393D5E9224C440CDBEFF /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				BE0B443B7EB01BE0D81107D8 /* SignaturePanelView.swift */,
+				7DE6D37ADA5D3D74C2463DF6 /* SignaturePanelViewModel.swift */,
+				64A2996AA8B5163EA5B04CF9 /* ThumbnailSidebarView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		6B29C6237F3CA79E3C0C3B9B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E198B75D40B6B7697C317306 /* MainWindow */,
+				BE54759D55EC1CE0872127F3 /* Panels */,
+				4E20393D5E9224C440CDBEFF /* Sidebar */,
+				07BC9426CE82DFF7CC2BACBA /* Toolbar */,
+				FB76BCCC362D4F6BE6D40340 /* Viewer */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7A6546C9231851E1417A1B10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2824FC45B5BCA47AE17E738 /* Npdf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F233015A2CE462437896AFF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8ACD92CE0134B6076DC01A73 /* ToolMode.swift */,
+				0E7A4B14AC7A9FE0EDA9DD65 /* ToolSettings.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		BE54759D55EC1CE0872127F3 /* Panels */ = {
+			isa = PBXGroup;
+			children = (
+				6DEE735375CC6B33EE58CCC9 /* SignatureCaptureView.swift */,
+			);
+			path = Panels;
+			sourceTree = "<group>";
+		};
+		D8A4A567973309938C003908 = {
+			isa = PBXGroup;
+			children = (
+				E931C964EB71DBB965F553EC /* Npdf */,
+				42952AD5577FF1C29405D5B7 /* Packages */,
+				7A6546C9231851E1417A1B10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E13BF0ADA576C37958051FE2 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				F2A997B4D93FADE7145686E8 /* NpdfInkAnnotation.swift */,
+				CEC326BD04ADC668B4F655DB /* NpdfStampAnnotation.swift */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+		E198B75D40B6B7697C317306 /* MainWindow */ = {
+			isa = PBXGroup;
+			children = (
+				060377B8487F22A48A41843E /* MainWindowController.swift */,
+				E7F8E35970CE9B9F43C2071B /* SplitViewController.swift */,
+			);
+			path = MainWindow;
+			sourceTree = "<group>";
+		};
+		E931C964EB71DBB965F553EC /* Npdf */ = {
+			isa = PBXGroup;
+			children = (
+				E13BF0ADA576C37958051FE2 /* Annotations */,
+				4BDB6CECFBAE4D572ED57F81 /* App */,
+				3E2F4EBD4284025A2C863E85 /* Document */,
+				48E0297DB1BEF954DD8C2549 /* Resources */,
+				9F233015A2CE462437896AFF /* Tools */,
+				6B29C6237F3CA79E3C0C3B9B /* UI */,
+			);
+			path = Npdf;
+			sourceTree = "<group>";
+		};
+		FB76BCCC362D4F6BE6D40340 /* Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				CDDFDB1DF489C8C66F3A6EA2 /* AnnotationOverlayView.swift */,
+				6D7998CD93BA8A07D5AE2FAB /* PDFViewController.swift */,
+				31F01FEF3A283E758F8BB91B /* TextEditorOverlayView.swift */,
+			);
+			path = Viewer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63757EA8915D13C1C8AA6F18 /* Npdf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085B372F4E31AB76F3C17901 /* Build configuration list for PBXNativeTarget "Npdf" */;
+			buildPhases = (
+				BE974E8CEFF1DCB592E7302E /* Sources */,
+				E014A64AA1F52869DBDBA338 /* Resources */,
+				E5EB8C7F431A77E7DB04218D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Npdf;
+			packageProductDependencies = (
+				BB1B5776C6C432C8B2649201 /* NpdfKit */,
+			);
+			productName = Npdf;
+			productReference = C2824FC45B5BCA47AE17E738 /* Npdf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91AC009AD6D4305717BA9A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 57CC0E74A8551C5FFD617D60 /* Build configuration list for PBXProject "Npdf" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D8A4A567973309938C003908;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				00C70021692CED6C978FA897 /* XCLocalSwiftPackageReference "NpdfKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7A6546C9231851E1417A1B10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63757EA8915D13C1C8AA6F18 /* Npdf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E014A64AA1F52869DBDBA338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF9691944683D2B8C406A3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE974E8CEFF1DCB592E7302E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7355B541C8E4F047850E6F9F /* AnnotationOverlayView.swift in Sources */,
+				F40ACB97A48C8E4E65D01D7F /* AppDelegate.swift in Sources */,
+				49DC2A3B43AB0F98B1B6B3D9 /* MainWindowController.swift in Sources */,
+				3017FE3652532EBD2BC6A8FF /* NpdfInkAnnotation.swift in Sources */,
+				B90013A7EBBC12702CC33866 /* NpdfLogger.swift in Sources */,
+				A0C7DC46802E2E2D046BA56F /* NpdfStampAnnotation.swift in Sources */,
+				9B169EBA0A7A7274482E7F3A /* PDFEditorDocument.swift in Sources */,
+				41E1BAEB1D90143465F22750 /* PDFViewController.swift in Sources */,
+				17AB4993A565EE270ABA6491 /* SignatureCaptureView.swift in Sources */,
+				3952E84B7E3CCE71711E0EC4 /* SignaturePanelView.swift in Sources */,
+				F27D5C7199F76083C78174ED /* SignaturePanelViewModel.swift in Sources */,
+				6B41DBE86B727F849F52B5F9 /* SplitViewController.swift in Sources */,
+				989E8175C84530FFECB4B0DA /* TextEditorOverlayView.swift in Sources */,
+				E77C5AE9F9216376699727EE /* ThumbnailSidebarView.swift in Sources */,
+				43EC84AB7F359D09D13D90B2 /* ToolMode.swift in Sources */,
+				66B8ACEA059555F9F1D163A5 /* ToolPickerView.swift in Sources */,
+				2C5FE5F0F0716F37DDE55094 /* ToolSettings.swift in Sources */,
+				D1E5532CBFA1FEE367A8D209 /* ToolbarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05E66A28071F0CB233CBF3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = Npdf/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npdf.app;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3C086105E6480FBAB753CAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		C011B31379F0FB1094D442B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = Npdf/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npdf.app;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2A015C3929319D66DB5B587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		085B372F4E31AB76F3C17901 /* Build configuration list for PBXNativeTarget "Npdf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C011B31379F0FB1094D442B1 /* Debug */,
+				05E66A28071F0CB233CBF3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		57CC0E74A8551C5FFD617D60 /* Build configuration list for PBXProject "Npdf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A015C3929319D66DB5B587 /* Debug */,
+				3C086105E6480FBAB753CAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		00C70021692CED6C978FA897 /* XCLocalSwiftPackageReference "NpdfKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = NpdfKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB1B5776C6C432C8B2649201 /* NpdfKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NpdfKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 91AC009AD6D4305717BA9A25 /* Project object */;
+}

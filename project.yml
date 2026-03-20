@@ -1,0 +1,80 @@
+name: Npdf
+options:
+  bundleIdPrefix: com.npdf
+  deploymentTarget:
+    macOS: "13.0"
+  xcodeVersion: "15.0"
+  groupSortPosition: top
+  generateEmptyDirectories: true
+  defaultConfig: Debug
+
+configs:
+  Debug: debug
+  Release: release
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "13.0"
+    ENABLE_HARDENED_RUNTIME: YES
+
+packages:
+  NpdfKit:
+    path: NpdfKit
+
+targets:
+  Npdf:
+    type: application
+    platform: macOS
+    deploymentTarget: "13.0"
+    sources:
+      - path: Npdf
+        excludes:
+          - "**/*.plist"
+      - path: Npdf/Annotations
+    resources:
+      - path: Npdf/Resources/Assets.xcassets
+    info:
+      path: Npdf/Resources/Info.plist
+      properties:
+        CFBundleName: Npdf
+        CFBundleDisplayName: Npdf
+        CFBundleIdentifier: com.npdf.app
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        NSPrincipalClass: NSApplication
+        NSMainNibFile: ""
+        NSHighResolutionCapable: true
+        LSMinimumSystemVersion: "13.0"
+        CFBundleDocumentTypes:
+          - CFBundleTypeName: PDF Document
+            CFBundleTypeRole: Editor
+            CFBundleTypeExtensions:
+              - pdf
+            CFBundleTypeIconSystemName: doc.fill
+            LSHandlerRank: Alternate
+            NSDocumentClass: Npdf.PDFEditorDocument
+            LSItemContentTypes:
+              - com.adobe.pdf
+        UTImportedTypeDeclarations:
+          - UTTypeIdentifier: com.adobe.pdf
+            UTTypeDescription: PDF Document
+            UTTypeConformsTo:
+              - public.data
+            UTTypeTagSpecification:
+              public.mime-type: application/pdf
+              public.filename-extension: pdf
+    dependencies:
+      - package: NpdfKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.npdf.app
+        INFOPLIST_FILE: Npdf/Resources/Info.plist
+        CODE_SIGN_ENTITLEMENTS: ""
+        ENABLE_APP_SANDBOX: NO
+        LD_RUNPATH_SEARCH_PATHS: "@executable_path/../Frameworks"
+        SWIFT_OPTIMIZATION_LEVEL: "-Onone"
+      configs:
+        Release:
+          SWIFT_OPTIMIZATION_LEVEL: "-O"
+
